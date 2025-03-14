@@ -1,0 +1,58 @@
+/**
+Theme Name: Forjando Caminos
+Author: Sebastian Gomez
+Author URI: https://www.linkedin.com/in/sebastian-gomez-7b2966105/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: forjando-caminos
+Template: astra
+*/
+
+.site-header {
+    position: fixed;
+    width: 100%;
+}
+
+.ast-builder-menu-1 .menu-item:hover > .menu-link, .ast-builder-menu-1 .inline-on-mobile .menu-item:hover > .ast-menu-toggle {
+    border-color: #0062FF;
+}
+
+.main-header-menu > .menu-item > .menu-link, #astra-footer-menu > .menu-item > .menu-link {
+    height: 30px;
+}
+
+a[href="#unete-ahora"] {
+    color: #0C3273 !important;
+    font-weight: bold;
+    background: #3BCDF2;
+    border-radius: 20px;
+    padding: 0 30px !important;
+    height: 40px !important;
+}
+
+.contador-numero {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0c3273;
+}
+
+.texto-contador {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1;
+}
+
+.slick-track {
+    margin: 0;
+}
+
+.nuestra-labor {
+    text-align: center;
+    font-size: 50px;
+    color: #0C3273;
+    font-weight: 700;
+}
+
+.labor {color: #0062FF;}
