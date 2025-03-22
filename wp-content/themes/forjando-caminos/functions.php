@@ -30,6 +30,11 @@ function nuestro_territorio_template() {
     require_once get_stylesheet_directory().'/templates/presencia_territorio.php';
 }
 
+function footer_template() {
+    require_once get_stylesheet_directory().'/templates/footer_template.php';
+}
+
 add_shortcode('nuestra_labor', 'nuestra_labor_template');
 add_shortcode('nuestro_territorio', 'nuestro_territorio_template');
+add_shortcode('footer', 'footer_template');
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
