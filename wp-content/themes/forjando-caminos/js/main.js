@@ -32,12 +32,23 @@ $(document).ready(function() {
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
+                        slidesToShow: 1,
+                        slidesToScroll: 1
                     }
-                },
+                }
+            ]
+        });
+        $('.nuestro-legado-slider').slick({
+            lazyLoad: 'ondemand',
+            infinite: false,
+            dots: true,
+            arrows: false,
+            customPaging: function(slider, i) {
+                return '<span class = "slider-custom-legado"></span>';
+            },
+            responsive: [
                 {
-                    breakpoint: 600,
+                    breakpoint: 1024,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
