@@ -15,8 +15,8 @@ Template: astra
     width: 100%;
 }
 
-.ast-builder-menu-1 .menu-item:hover > .menu-link, .ast-builder-menu-1 .inline-on-mobile .menu-item:hover > .ast-menu-toggle {
-    border-color: #0062FF;
+.content-area {
+    margin-top: 104px !important;
 }
 
 .main-header-menu > .menu-item > .menu-link, #astra-footer-menu > .menu-item > .menu-link {
@@ -40,7 +40,7 @@ a[href="#unete-ahora"] {
 
 .texto-contador {
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1;
 }
 
@@ -49,13 +49,14 @@ a[href="#unete-ahora"] {
 }
 
 .nuestra-labor {
+    text-transform: capitalize;
     text-align: center;
     font-size: 50px;
     color: #0C3273;
     font-weight: 700;
 }
 
-.labor {color: #0062FF;}
+.labor {color: #0062FF;font-weight: 700;}
 
 .contenedor-labor-flex {
     display: flex;
@@ -64,21 +65,36 @@ a[href="#unete-ahora"] {
 }
 
 .subcontenedor-labor {
-    flex: 1 1 calc(33.333% - 20px);
+    width: 32%;
     font-family: 'Montserrat';
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s all;
+}
+
+.subcontenedor-labor:hover {
+    transform: scale(1.03);
 }
 
 .subcontenedor-labor p {
     color: #606060;
+    width: 85%;
+    margin: auto;
+    text-align: justify;
 }
 
 .subcontenedor-labor h4 {
     font-size: 30px;
     color: #0C3273;
     font-weight: 500;
+    width: 85%;
+    margin: auto;
 }
 
 .img-labor {
+    width: 100%;
     height: 130px;
     position: relative;
     background-repeat: no-repeat;
@@ -197,7 +213,7 @@ a[href="#unete-ahora"] {
     color: #0062FF;
 }
 
-.imagen-footer {
+.imagen-footer, .imagen-footer-responsive {
     visibility: hidden;
 }
 
@@ -260,6 +276,7 @@ button.contactanos-footer {
     padding-bottom: 10px;
     border-bottom: 2px solid #fff;
     max-width: 200px;
+    margin: auto;
 }
 
 .row-subcontenedor-footer-secondary ul {
@@ -334,7 +351,6 @@ button.contactanos-footer {
     padding: 16px 20px;
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
 }
 
 .open-close-faq {
@@ -342,8 +358,8 @@ button.contactanos-footer {
     background: #0C3273;
     color: #3BCDF2;
     border: 2px solid #3BCDF2;
-    height: 44px;
-    width: 44px;
+    height: 40px;
+    width: 40px;
     font-size: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -351,8 +367,9 @@ button.contactanos-footer {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    right: 30px;
+    right: 20px;
     cursor: pointer;
+    top: 10px;
 }
 
 .titulo-faq {
@@ -368,7 +385,7 @@ button.contactanos-footer {
     max-height: 0px;
     overflow: hidden;
     margin: 0 !important;
-    transition: height 0.5s ease;
+    transition: max-height 0.5s ease-in-out;
 }
 
 .color_territorio_rojo{
@@ -385,6 +402,22 @@ button.contactanos-footer {
 
 .color_territorio_verde {
     background-color: #B6C300 !important;
+}
+
+.fondo-azul {
+    background-color: #0C3273;
+}
+
+.fondo-azul-claro {
+    background-color: #0062FF;
+}
+
+.fondo-aguamarina {
+    background-color: #3BCDF2;
+}
+
+.fondo-aguamarina-claro {
+    background-color: #4BF9E4;
 }
 
 .barra_rojo {
@@ -407,14 +440,7 @@ button.contactanos-footer {
     position: relative;
 }
 
-.alto-automatico {
-    max-height: 120px;
-}
-
-.fondo-azul {
-    background: linear-gradient(270deg, rgba(2, 51, 143, 0) 10.44%, #02338F 100.09%) !important;
-    mix-blend-mode: multiply !important;
-}
+.alto-automatico {max-height: 300px;}
 
 .color-blanco {
     color: #fff;
@@ -428,6 +454,7 @@ button.contactanos-footer {
 
 .fondo-azul-faq {
     background-color: #0C3273;
+    animation: fadeInBg 0.5s;
 }
 
 .borde-superior-texto-faq {
@@ -484,7 +511,110 @@ button.contactanos-footer {
     border-radius: 10px;
 }
 
+.formulario_voluntarios button {
+    background: #0062FF;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.contenedor-nuestro-legado {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.subcontenedor-nuestro-legado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    border-radius: 15px;
+}
+
+.img-nuestro-legado {
+    width: 40%;
+}
+
+.texto-legado {
+    width: 60%;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.texto-legado h3 {
+    color: #fff;
+}
+
+.nuestro-legado-boto {
+    background: transparent;
+    border: 4px solid #fff;
+    border-radius: 30px;
+    margin: 0;
+    padding: 10px 24px;
+}
+
+.nuestro-legado-boto:hover {
+    background: transparent;
+    border-color: #fff;
+}
+
+.img-nuestro-legado img {
+    width: 100%;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fondo-azul-banner {
+    background: linear-gradient(270deg, rgba(2, 51, 143, 0) 10.44%, #02338F 100.09%) !important;
+    mix-blend-mode: multiply !important;
+}
+
+.absoluto-escritorio {
+    position: absolute;
+    bottom: -100px;
+}
+
+.formulario_donantes button, .formulario_voluntarios button {
+    margin-top: 20px;
+}
+
+.subcontenedor-labor h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subcontenedor-labor p {font-size: 14px;}
+
+.subcontenedor-nuestro-legado:hover {
+    transform: scale(1.03);
+    transition: 0.5s all;
+}
+
+@keyframes fadeInBg {
+    0% {
+      background-color: #FFFFFF;
+      opacity: 0;
+    }
+    100% {
+      background-color: #0C3273;
+      opacity: 1;
+    }
+}
+
 @media screen and (max-width: 1024px) {
+    .nuestro-territorio-titulo {
+        font-size: 32px;
+    }
+
+    .absoluto-escritorio {
+        position: static;
+    }
+
     .desaparecer-moviles {
         display: none;
     }
@@ -510,7 +640,7 @@ button.contactanos-footer {
         text-align: center;
     }
 
-    .contenedor-labor-flex .slick-dots {
+    .contenedor-labor-flex .slick-dots, .contenedor-nuestro-legado .slick-dots {
         list-style-type: none;
         display: flex;
         flex-wrap: wrap;
@@ -523,7 +653,7 @@ button.contactanos-footer {
         margin: 20px auto !important;
     }
     
-    .contenedor-labor-flex .slick-dots li {
+    .contenedor-labor-flex .slick-dots li, .contenedor-nuestro-legado .slick-dots li {
         width: 20%;
         height: 10px;
         border-radius: 11px;
@@ -531,7 +661,8 @@ button.contactanos-footer {
         cursor: pointer;
     }
     
-    .contenedor-labor-flex .slick-dots li.slick-active {background: #0C3273;width: calc(100% - 50%);}
+    .contenedor-labor-flex .slick-dots li.slick-active,
+    .contenedor-nuestro-legado .slick-dots li.slick-active {background: #0C3273;width: calc(100% - 50%);}
 
     .nuestro-legado-slider .slick-slide {
         display: flex;
@@ -574,11 +705,208 @@ button.contactanos-footer {
         margin: auto !important;;
         font-size: 40px !important;
     }
+
+    .subcontenedor-nuestro-legado {
+        width: 100%;
+    }
+
+    .subcontenedor-labor {
+        width: 48%;
+        padding: 10px;
+    }
+
+    .letrero-banner p {
+        padding: 10px !important;
+    }
+
+    .row-subcontenedor-footer-main {
+        width: 33%;
+        text-align: center;
+    }
+    
+    .subcontenedor-footer {
+        padding-top: 20px;
+    }
+    
+    .row-subcontenedor-footer-secondary {
+        width: 33%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .row-subcontenedor-footer-secondary ul {
+        margin: auto;
+    }
+    
+    .row-subcontenedor-footer-secondary ul li {
+        margin-bottom: 10px;
+    }
+    
+    .redes-forjando-caminos {
+        width: 95%;
+        margin: auto;
+    }
+
+    .subcontenedor-footer-moviles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    
+    .row-subcontenedor-footer-moviles {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row-subcontenedor-footer-moviles .copyrigth-forjando-caminos {
+        width: 100%;
+    }
+    
+    .row-subcontenedor-footer-moviles .redes-sociales-forjando-caminos-footer {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-moviles {position: absolute;top: 50px;display: flex;flex-wrap: wrap;font-family: 'Montserrat';color: #fff;text-align: center;width: 100%;}
+
+    .unete-ahora-moviles {
+        width: 100%;
+    }
+
+    .redes-sociales-moviles {
+        width: 100%;
+    }
+
+    .redes-sociales-forjando-caminos-footer-moviles {
+        padding: 20px;
+    }
+
+    .copyrigth-forjando-caminos-moviles {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 2px solid #fff;
+        width: 75%;
+        margin: 10px auto;
+    }
+
+    .imagen-footer-responsive {
+        max-width: 400px !important;
+        width: 100%;
+        height: 340px !important;
+    }
+
+    .enlace-iconos-redes-sociales img {
+        max-width: 50px;
+    }
+    
+    .siguenos-movil {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 921px) {
+    .subcontenedor-faq {
+        width: 100%;
+    }
+
     .main-navigation {
         height: calc(100vh - 105px);
         background-color: #0C3273;
+    }
+
+    .nuestra-labor {
+        font-size: 32px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subcontenedor-labor {
+        width: 1000%;
+    }
+
+    .estadisticas {
+        align-items: center;
+    }
+    
+    .texto_territorio {
+        visibility: hidden;
+    }
+
+    .subcontenedor-labor {
+        width: 49%;
+    }
+
+    .ancho_img_territorio img {
+        max-width: 90%;
+    }
+
+    .letrero-banner p {
+        font-size: 36px !important;
+    }
+
+    .texto-contador {
+        font-size: 14px;
+    }
+    
+    .subcontenedor-nuestro-territorio p {
+        text-align: justify;
+        font-size: 14px;
+        color: #606060;
+    }
+
+    .borde-superior-texto-faq {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nuestro-legado-boto {
+        padding: 5px 20px;
+        border: 2px solid #fff;
+    }
+    
+    .nuestro-territorio-titulo {
+        font-size: 24px;
+    }
+
+    .nuestra-labor {
+        font-size: 24px;
+    }
+    
+    .letrero-banner p {
+        font-size: 24px !important;
+        width: 80% !important;
+    }
+
+    .subcontenedor-labor {
+        width: 48%;
+    }
+
+    .estadisticas {
+        align-items: center;
+    }
+    
+    .texto_territorio {
+        visibility: hidden;
+    }
+
+    .site-logo-img img {
+        max-width: 115px;
+    }
+    
+    .content-area {
+        margin-top: 80px !important;
     }
 }

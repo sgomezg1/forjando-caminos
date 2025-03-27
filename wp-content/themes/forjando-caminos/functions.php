@@ -48,6 +48,10 @@ function faq_template() {
     require_once get_stylesheet_directory().'/templates/faq_template.php';
 }
 
+function nuestro_legado_template() {
+    require_once get_stylesheet_directory().'/templates/nuestro_legado.php';
+}
+
 add_filter( 'astra_tablet_breakpoint', function() {
     return 1024;
 });
@@ -55,5 +59,6 @@ add_shortcode('nuestra_labor', 'nuestra_labor_template');
 add_shortcode('nuestro_territorio', 'nuestro_territorio_template');
 add_shortcode('footer', 'footer_template');
 add_shortcode('faq', 'faq_template');
+add_shortcode('nuestro_legado', 'nuestro_legado_template');
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 add_action('wp_enqueue_scripts', 'custom_javascript');

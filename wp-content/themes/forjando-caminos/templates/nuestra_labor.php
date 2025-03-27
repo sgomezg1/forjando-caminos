@@ -4,41 +4,41 @@
             <img src = "http://forjandocaminos.test/wp-content/uploads/2025/03/forjando-caminos-icono-comunidad.png">
         </div>
         <h4>Comunidad</h4>
-        <p>Forjando Caminos Col quiere dejar huella en la comunidad, construyendo puentes para impactar positivamente a los colombianos.</p>
+        <p>La prioridad del programa Brigadas de Salud es beneficiar a las comunidades vulnerables compuestas por todos los grupos poblacionales para mejorar su calidad de vida.</p>
     </div>
     <div class="subcontenedor-labor">
         <div class="img-labor voluntarios">
             <img src = "http://forjandocaminos.test/wp-content/uploads/2025/03/forjando-caminos-icono-voluntarios.png">
         </div>
         <h4>Voluntarios</h4>
-        <p>Forjando Caminos Col tiene un equipo de más de 150 voluntarios en diferentes áreas de la salud.</p>
+        <p>Mas de 150 voluntarios con vocación de servicio, responsabilidad, amor y sensibilidad social para entregar lo mejor en cada brigada.</p>
     </div>
     <div class="subcontenedor-labor">
         <div class="img-labor salud">
             <img src = "http://forjandocaminos.test/wp-content/uploads/2025/03/forjando-caminos-icono-salud-bienestar.png">
         </div>
         <h4>Salud y bienestar</h4>
-        <p>Forjando Caminos Col brinda bienestar a través de servicios de salud en ramas tan diferentes como: Medicina general, ginecología, psicología, pediatría, fisioterapia, optometría, entre otros.</p>
+        <p>Conformación de redes de apoyo para lograr un mayor y mejor impacto en las comunidades, para ello, cuenta con la participación de profesionales de la salud para la prestación de los servicios básicos y especializados.</p>
     </div>
     <div class="subcontenedor-labor">
         <div class="img-labor rosa">
             <img src = "http://forjandocaminos.test/wp-content/uploads/2025/03/forjando-caminos-icono-poder-rosa.png">
         </div>
         <h4>Poder Rosa</h4>
-        <p>Forjando Caminos Col proporciona servicios de salud a mujeres afectadas por el conflicto, asegurando acceso a cuidados esenciales que promueven su bienestar y empoderamiento en un contexto de vulnerabilidad.</p>
+        <p>Programa de brigadas hecho DE MUJERES PARA MUJERES, dirigido a el empoderamiento de la mujer en su salud sexual y reproductiva.</p>
     </div>
     <div class="subcontenedor-labor">
         <div class="img-labor infancia">
             <img src = "http://forjandocaminos.test/wp-content/uploads/2025/03/forjando-caminos-icono-infancia.png">
         </div>
         <h4>Infancia</h4>
-        <p>La Fundación Forjando Caminos Col ofrece servicios de salud a la niñez, promoviendo su desarrollo integral y un futuro más saludable.</p>
+        <p>Programa de brigadas realizadas para población pediátrica, con el objetivo de disminuir tasas de mortalidad infantil por desnutrición y falta de seguimiento en pediatría. </p>
     </div>
     <div class="subcontenedor-labor">
         <div class="img-labor territorio">
             <img src = "http://forjandocaminos.test/wp-content/uploads/2025/03/forjando-caminos-icono-territorio.png">
         </div>
         <h4>Territorio</h4>
-        <p>Forjando Caminos Col brinda servicios de salud a quienes más lo necesitan, dejando huella en territorios en situación de vulnerabilidad.</p>
+        <p>El programa Brigadas de Salud tiene el propósito de ayudar a miles de colombianos a lo largo y ancho del país para que puedan acceder a los servicios fundamentales de salud, debido a que las condiciones geográficas donde habitan no se los permite. </p>
     </div>
 </div>
